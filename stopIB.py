@@ -3,12 +3,12 @@ import os, sys, socket
 import time
 
 # Definir nombre servidor e instancias IBv10
-server01 = "PPECBPIB01"
-server02 = "PPECBPIB02"
-qm01 = "TCSRBRK_BP1"
-qm02 = "TCSRBRK_BP2"
-ib01 = "TCSBRKR1_BP"
-ib02 = "TCSBRKR1_BP"
+server01 = "XXECBPIB01"
+server02 = "XXECBPIB02"
+qm01 = "TCSRXXX_BP1"
+qm02 = "TCSRXXX_BP2"
+ib01 = "TCSBXXX_BP"
+ib02 = "TCSBXXX_BP"
 
 # Obtener nombre de servidor
 myhost = socket.gethostname()
